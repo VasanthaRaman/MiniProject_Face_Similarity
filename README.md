@@ -37,7 +37,7 @@ Troubleshooting:
     
    And then click generate in GUI.
     
-    (iii) Make sure cmake is installed via cmd prompt opened in admin priveleges.
+   (iii) Make sure cmake is installed via cmd prompt opened in admin priveleges.
 
 Procedure: (If using xampp server)
   1. Install the requirements stated.
