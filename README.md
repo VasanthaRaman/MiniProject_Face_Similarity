@@ -39,6 +39,9 @@ Troubleshooting:
     
    (iii) Make sure cmake is installed via cmd prompt opened in admin priveleges.
 
+ 2. Localhost keeps getting stuck on running the php files
+    It is advicable to run the python files seperately in local machine from cmd prompt before running it for the first time from your browser. This issue ocurs mostly when the system being worked upon does not have a GPU.
+    
 Procedure: (If using xampp server)
   1. Install the requirements stated.
   2. Clone this repository and extract all files into C:/xampp/htdocs.
