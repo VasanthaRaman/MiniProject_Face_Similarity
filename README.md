@@ -24,6 +24,7 @@ Troubleshooting:
   1. Error : NO_C_COMPILER FOUND or NO_CXX_COMPILER FOUND
     This means that your cmake was not able to identify or access C/C++ compiler in your system. 
     Steps to resolve:
+    
       (i) Make sure a C/C++ compiler is availabe in your system. If you are using MSVC, make sure it has downloaded the necessary C/C++ workspace. If using GCC or MinGW, make sure it is installed properly by checking for its version with "gcc --version" in cmd prompt.
       
       (ii)If still the error persists, manually open Cmake GUI in this path,    
@@ -34,7 +35,7 @@ Troubleshooting:
     project ("CMakeProject3")
     add_subdirectory ("CMakeProject3")
     
-    And then click generate in GUI.
+   And then click generate in GUI.
     
     (iii) Make sure cmake is installed via cmd prompt opened in admin priveleges.
 
